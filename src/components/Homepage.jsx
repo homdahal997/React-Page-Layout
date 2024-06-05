@@ -3,7 +3,7 @@ import Header from "./Header";
 
 function HomePage(){
     return(
-        <div className="homePage">
+        <div className="HomePage">
             <Header title =  "Employee Directory" />
         </div>
     )
