@@ -5,10 +5,8 @@ function EmployeeSingle(props) {
             <div className="profileNameEmployee">
                 <h3>{props.name}</h3>
                 <h6>{props.title}</h6>
-
             </div>
             <hr />
-
             <table className="contactInfo">
                 <tbody>
                     <tr>
@@ -17,25 +15,31 @@ function EmployeeSingle(props) {
                         <td>{'>'}</td>
                     </tr>
                     <tr>
+                        <td colSpan="3"><hr /></td>
+                    </tr>
+                    <tr>
                         <td>Mobile:</td>
                         <td>{props.mobile}</td>
                         <td>{'>'}</td>
-                        <hr />
-                        <br />
+                    </tr>
+                    <tr>
+                        <td colSpan="3"><hr /></td>
                     </tr>
                     <tr>
                         <td>SMS:</td>
                         <td>{props.sms}</td>
                         <td>{'>'}</td>
-                        <hr />
-                        <br />
+                    </tr>
+                    <tr>
+                        <td colSpan="3"><hr /></td>
                     </tr>
                     <tr>
                         <td>Email:</td>
                         <td>{props.email}</td>
                         <td>{'>'}</td>
-                        <hr />
-                        <br />
+                    </tr>
+                    <tr>
+                        <td colSpan="3"><hr /></td>
                     </tr>
                 </tbody>
             </table>
