@@ -1,15 +1,15 @@
-function EmployeeSingle(props){
-    return(
+function EmployeeSingle(props) {
+    return (
         <div className="profileEmployee">
-        <img className="profilePhotoEmployee" src = {props.src} alt={props.name} />
-        <div className="profileNameEmployee">
-            <h3>{props.name}</h3>
-            <h6>{props.title}</h6>
-            
-        </div>
-        <hr />
-        
-        <table className="contactInfo">
+            <img className="profilePhotoEmployee" src={props.src} alt={props.name} />
+            <div className="profileNameEmployee">
+                <h3>{props.name}</h3>
+                <h6>{props.title}</h6>
+
+            </div>
+            <hr />
+
+            <table className="contactInfo">
                 <tbody>
                     <tr>
                         <td>Office:</td>
@@ -38,8 +38,8 @@ function EmployeeSingle(props){
                         <br />
                     </tr>
                 </tbody>
-            </table>     
-    </div>
+            </table>
+        </div>
     )
 }
 export default EmployeeSingle
