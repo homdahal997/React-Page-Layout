@@ -64,3 +64,28 @@
 .profileName h6 {
   margin-top: 0; 
 }
+
+.profileEmployee {
+  align-items: start; 
+  gap: 5px; 
+  border: 1px solid rgb(71, 70, 70);
+  margin-top: 5px;
+}
+.profilePhotoEmployee {
+  float: left;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+.profileNameEmployee {
+  display: flex;
+  flex-direction: column; 
+}
+.profileNameEmployee h3 {
+  margin-bottom: 2px; 
+}
+
+.profileNameEmployee h6 {
+  margin-top: 0; 
+}

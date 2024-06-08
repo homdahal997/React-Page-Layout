@@ -6,6 +6,7 @@ function EmployeeListItem(props){
             <h3>{props.name}</h3>
             <h6>{props.title}</h6>
         </div>
+        
     </div>
     )
 }
